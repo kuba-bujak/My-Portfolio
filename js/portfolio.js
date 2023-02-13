@@ -168,10 +168,6 @@ const menu = [
 		url: "https://kuba-bujak.github.io/Questions/"
 	 }
  ];
-
- menu.forEach(item => {
-	console.log(item.img);
- })
  
  const portfolioFiles = document.querySelector('.portfolio-files');
  const filterButtons = document.querySelector('.filter-buttons')
