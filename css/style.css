@@ -207,6 +207,9 @@ p {
 }
 
 #home .subtitle {
+	display: flex;
+	gap: 0.4rem;
+	justify-content: center;
 	color: white;
 	font-size: 1.4em;
 	margin-bottom: 0.6em;
@@ -234,6 +237,26 @@ p {
 	background-color: #fca311;
 	border-color: #fca311;
 	color: #e5e5e5;
+}
+
+#home #passionate {
+	width: 9ch;
+	animation: typing 1s steps(9), blink .5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid;
+}
+
+@keyframes typing {
+	from{
+		width: 0;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
 }
 
 /* about section */
